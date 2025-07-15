@@ -6,13 +6,13 @@
   <groupId>com.example</groupId>
   <artifactId>simple-web-app</artifactId>
   <version>1.0-SNAPSHOT</version>
-  <packaging>war</packaging>
+  <packaging>jar</packaging>
 
   <build>
     <plugins>
       <plugin>
-        <artifactId>maven-war-plugin</artifactId>
-        <version>3.3.2</version>
+        <artifactId>maven-jar-plugin</artifactId>
+        <version>3.2.2</version>
       </plugin>
     </plugins>
   </build>
